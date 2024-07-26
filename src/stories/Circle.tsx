@@ -1,8 +1,15 @@
 import React from 'react';
 
 type Props = {
+/**
+ * プロジェクトで使用する円のUIコンポーネント。
+ */
   variant: "orange" | "green" | "yellow";
 };
+
+/**
+ * プロジェクトで使用する円のUIコンポーネント。
+ */
 
 const Circle = ({ variant }: Props) => {
   let bgColor;
